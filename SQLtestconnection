@@ -1,0 +1,3 @@
+if __name__ == "__main__":
+    rows = run_sql("SELECT TOP 1 * FROM Orders")
+    print(rows)
