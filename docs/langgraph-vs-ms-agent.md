@@ -128,23 +128,8 @@ Microsoft Agent Framework applies those same mechanics at enterprise scale:
 debug, and design correctly.
 
 ## High-Level Agent Flow
-User Input
-|
-v
-[ Agent Reasoning ]
-|
-| decides to call tool
-v
-[ Tool / Action ]
-|
-| returns structured data
-v
-[ Agent Reasoning ]
-|
-v
-User Response
-|
-v
+User Input -> Agent Reasoning (decides to call tool) -> Tool/Action (Returns Structured data) -> Agent Reasoning -> User Response -> LangGraph 
+
 LangGraph:
 - All boxes are explicit
 - Developer defines transitions
