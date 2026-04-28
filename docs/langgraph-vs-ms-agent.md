@@ -133,8 +133,6 @@ User Input -> Agent Reasoning (decides to call tool) -> Tool/Action (Returns Str
 LangGraph:
 - All boxes are explicit
 - Developer defines transitions
-|
-v
 Microsoft Agent Framework:
 - Same flow
 - Runtime manages transitions
